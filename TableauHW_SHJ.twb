@@ -410,14 +410,6 @@
               <bucket>&quot;[federated.093bcvo16awe271av9blk055fpej].[avg:Calculation_163818485633880067:qk]&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:User Type:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;Subscriber&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;Customer&quot;</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Gender:ok]' type='palette'>
             <map to='#4e79a7'>
               <bucket>1</bucket>
@@ -427,6 +419,14 @@
             </map>
             <map to='#e15759'>
               <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:User Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Subscriber&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Customer&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -2688,8 +2688,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='27' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='29' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='78125' id='3' is-fixed='true' name='End Station' w='51800' x='2700' y='4000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2771,8 +2771,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='32' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='33' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='34' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='35' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='7125' id='15' type='text' w='84200' x='1500' y='2750'>
                   <formatted-text>
                     <run bold='true' fontcolor='#e15759' fontsize='15'>Hamilton Park : Best Views of Manhattan Skyline, Days and Nights!! </run>
@@ -2874,8 +2874,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='46' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='47' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='48' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='91' h='11375' id='42' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/beste/Tableau/Unit20_Tableau_HW/image sources/CitiBike_Logo_p.svg' type='bitmap' w='32500' x='2800' y='2875'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2992,8 +2992,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='27' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='29' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='79375' id='3' is-fixed='true' name='Start Station' w='50800' x='3300' y='5125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
